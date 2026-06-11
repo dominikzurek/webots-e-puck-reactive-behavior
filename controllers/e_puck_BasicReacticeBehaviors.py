@@ -78,7 +78,7 @@ while robot.step(timestep) != -1:
         else:
             motor_left.setVelocity(0)
             motor_right.setVelocity(0)
-            print("Robot is five cm away from O1 obstacle.\nTurning around....")
+            print("Robot is five cm away from O1 obstacle.\nTurning around...")
             current_step = 1
             
 
